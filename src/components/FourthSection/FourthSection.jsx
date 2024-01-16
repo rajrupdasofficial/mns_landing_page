@@ -12,7 +12,7 @@ const FourthSection = () => {
               You have easy access to various medical specialties and doctors.
             </p>
           </div>
-          <img src={phone} alt="phone" className="phone" />
+          <img src={phone} alt="phone" className="pppppp" />
         </div>
       </div>
     </>
