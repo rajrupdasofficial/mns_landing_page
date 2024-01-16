@@ -1,4 +1,6 @@
+import EightSection from "../components/EightSection/EightSection";
 import FifthSection from "../components/FifthSection/FifthSection";
+import Footer from "../components/Footer/Footer";
 import FourthSection from "../components/FourthSection/FourthSection";
 import HeaderComponent from "../components/HeaderComponent/header";
 import SeventhSection from "../components/SeventhSection/SeventhSection";
@@ -16,6 +18,9 @@ const HomePage = () => {
       <FifthSection />
       <SixthSecton />
       <SeventhSection />
+      <EightSection />
+      <Footer />
+
     </>
   );
 };
