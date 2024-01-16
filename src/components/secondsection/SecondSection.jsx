@@ -1,5 +1,5 @@
 import "../../../public/assets/css/secondsection.css";
-import Cards from "../../ui/cards/cards";
+import Cards from "../ui/cards/cards";
 const SecondSection = () => {
   return (
     <>
