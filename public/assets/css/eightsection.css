@@ -1,0 +1,43 @@
+.topsection {
+  margin-top: 40vh;
+  margin-left: 60vh;
+}
+.eihtsection {
+  display: flex;
+  max-width: 600px; /* Adjust the maximum width of the card as needed */
+  /* margin: 20px; */
+  margin-top: 40px;
+  border: 1px solid #ddd; /* Add a border for better visibility */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ima {
+  flex: 1;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 2;
+  padding: 16px;
+}
+
+.textp {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+}
+.toop {
+  margin-left: 20vh;
+  /* margin-top: 12vh; */
+  margin-bottom: 30px;
+  font-size: x-large;
+  color: #1c2a3a;
+}
+
+/* Add more styles as needed to customize the card appearance */
