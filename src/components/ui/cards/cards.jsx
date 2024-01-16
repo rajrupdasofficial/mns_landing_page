@@ -1,4 +1,5 @@
-import "../../../public/assets/css/cards.css";
+// import "../../../public/assets/css/cards.css";
+import "../../../../public/assets/css/cards.css";
 
 const Cards = () => {
   return (

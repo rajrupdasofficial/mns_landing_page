@@ -1,0 +1,49 @@
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  height: 366px;
+  margin-top: 15vh;
+}
+.gradientbackground {
+  width: 100%;
+  height: 366px;
+  flex-shrink: 0;
+  background: #e5efeb;
+}
+.imageWithText {
+  position: relative;
+  width: 30%; /* Adjust this value based on your layout */
+}
+
+.image {
+  width: 100%;
+  height: 200%;
+  object-fit: cover;
+}
+
+.textOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(
+    229,
+    239,
+    235,
+    0.8
+  ); /* Adjust the background color and transparency */
+  padding: 10px;
+  color: #47535f;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.toptext {
+  margin-left: 80vh;
+  margin-top: 12vh;
+  font-size: x-large;
+  color: #1c2a3a;
+}
