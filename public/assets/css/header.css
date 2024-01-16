@@ -24,10 +24,8 @@
   gap: 8px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(
-    --Gradient-01,
-    linear-gradient(90deg, #316362 -27.98%, #88b7a4 42.96%)
-  );
+  background: 
+    linear-gradient(90deg, #316362 -27.98%, #88b7a4 42.96%);
 }
 .headertitle {
   color: rgba(255, 255, 255, 0.7);
@@ -78,8 +76,8 @@
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(130%, -50%); 
-    width: 395.378px;
+    transform: translate(84%, -58%);
+    width: 531.378px;
     height: 599.646px;
     z-index: 1; /
 }

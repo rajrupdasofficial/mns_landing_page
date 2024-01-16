@@ -1,4 +1,6 @@
+import FourthSection from "../components/FourthSection/FourthSection";
 import HeaderComponent from "../components/HeaderComponent/header";
+import ThirdSection from "../components/ThirdSection/ThirdSection";
 import SecondSection from "../components/secondsection/SecondSection";
 
 const HomePage = () => {
@@ -6,6 +8,8 @@ const HomePage = () => {
     <>
       <HeaderComponent />
       <SecondSection />
+      <ThirdSection />
+      <FourthSection />
     </>
   );
 };
