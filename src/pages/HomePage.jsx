@@ -20,6 +20,7 @@ const HomePage = () => {
       <SeventhSection />
       <EightSection />
       <Footer />
+
     </>
   );
 };
