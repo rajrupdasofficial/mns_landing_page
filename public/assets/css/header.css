@@ -1,5 +1,6 @@
 .navbar {
   display: flex;
+  flex-direction: row;
   width: 100%;
   justify-content: space-around;
   align-items: center;
@@ -7,7 +8,20 @@
   background-color: #1c2a3a;
   color: white;
   font-weight: bold;
+  
 }
+.navbar ul {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  list-style: none; /* Remove default list styles */
+  margin-right: -187px;
+}
+.nav-link {
+  text-decoration: none; /* Remove default underline */
+  color: white; /* Set the link color */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
 .headerlogo {
   width: 38px;
   height: 36px;
@@ -52,7 +66,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 90px */
-  margin-left: 35vh;
+  margin-left: 20vh;
   margin-top: 20vh;
 }
 .section1 {
@@ -75,28 +89,28 @@
 .iphone {
     position: absolute; 
     top: 50%; 
-    left: 50%; 
+    left: 35%; 
     transform: translate(84%, -58%);
-    width: 531.378px;
-    height: 599.646px;
+    width: 600.378px;
+    height: 649.646px;
     z-index: 1; /
 }
 
 
 .belowtext{
     align-self: stretch;
-    max-width: 55%;
+    max-width:50%;
     color: #FBFBFB;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 48px */
-    margin-left: 35vh;
+    margin-left: 20vh;
 }
 .buttongroup{
     margin-top: 5vh;
-    margin-left: 35vh;
+    margin-left: 20vh;
 }
 .downloadapp{
     display: flex;
@@ -115,5 +129,5 @@ font-size: medium;
 
 .headersvg{
     margin-top: 5vh;
-    margin-left: 35vh;
+    margin-left: 20vh;
 }
