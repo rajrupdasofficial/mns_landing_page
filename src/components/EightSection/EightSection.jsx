@@ -5,7 +5,7 @@ const EightSection = () => {
     <>
       <div className="topsection">
         <div className="toop">
-          <h3>Easily Book Your Appointment</h3>
+          <h3>Our Customers’ Reviews</h3>
         </div>
         <div className="eihtsection">
           <div className="ima">

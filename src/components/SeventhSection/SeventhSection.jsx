@@ -9,15 +9,15 @@ const SeventhSection = () => {
       <div className="gradientbackground">
         <div className="imageContainer">
           <div className="imageWithText">
-            <img src={phone} alt="Appointment 1" className="image" />
+            <img src={phone} alt="Appointment 1" className="sevenimage" />
           </div>
 
           <div className="imageWithText">
-            <img src={phone} alt="Appointment 2" className="image" />
+            <img src={phone} alt="Appointment 2" className="sevenimage" />
           </div>
 
           <div className="imageWithText">
-            <img src={phone} alt="Appointment 3" className="image" />
+            <img src={phone} alt="Appointment 3" className="sevenimage" />
           </div>
         </div>
       </div>

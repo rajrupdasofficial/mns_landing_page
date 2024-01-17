@@ -4,12 +4,13 @@
   padding: 0px 160px;
   align-items: center;
   gap: 140px;
-  margin-top: 80px;
+  margin-top: 230px;
+  margin-bottom: 25vh;
 }
 
 .phone {
-  width: 200px;
-  height: 200px;
+  width: 600.045px;
+  height: 603.892px;
   flex-shrink: 0;
   z-index: 1;
 }

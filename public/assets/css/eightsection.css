@@ -1,16 +1,16 @@
 .topsection {
-  margin-top: 40vh;
+  margin-top: 26vh;
   margin-left: 60vh;
 }
 .eihtsection {
   display: flex;
-  max-width: 600px; /* Adjust the maximum width of the card as needed */
-  /* margin: 20px; */
+  max-width: 710px;
   margin-top: 40px;
-  border: 1px solid #ddd; /* Add a border for better visibility */
+  border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 38vh;
 }
 
 .ima {
@@ -34,10 +34,7 @@
 }
 .toop {
   margin-left: 20vh;
-  /* margin-top: 12vh; */
   margin-bottom: 30px;
   font-size: x-large;
   color: #1c2a3a;
 }
-
-/* Add more styles as needed to customize the card appearance */

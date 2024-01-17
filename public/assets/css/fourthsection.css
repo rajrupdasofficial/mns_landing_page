@@ -6,33 +6,35 @@
   background: #e5efeb;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  overflow: hidden;
+
+  z-index: 2;
 }
 .he {
   color: #1c2a3a;
   font-family: Inter;
-  font-size: 48px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 72px */
+  line-height: 150%;
 }
 .pk {
   color: #47535f;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 48px */
+  line-height: 150%;
+  max-width: 64%;
 }
 .adjust {
-  margin-top: 10vh;
-  margin-left: 20vh;
+  margin-top: -6vh;
+  margin-left: 40vh;
 }
-.pppppp {
+.fscimg {
+  display: flex;
   width: 600.045px;
   height: 603.892px;
   flex-shrink: 0;
   z-index: 1;
-  overflow: hidden;
+  margin-left: -18vh;
 }

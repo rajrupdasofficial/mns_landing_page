@@ -11,21 +11,20 @@
   
 }
 .navbar ul {
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  list-style: none; /* Remove default list styles */
-  margin-right: -187px;
+  list-style: none; 
+  margin-right: -20vh;
 }
 .nav-link {
-  text-decoration: none; /* Remove default underline */
-  color: white; /* Set the link color */
-  cursor: pointer; /* Add pointer cursor on hover */
+  text-decoration: none;
+  color: white; 
+  cursor: pointer;
 }
 
 .headerlogo {
   width: 38px;
   height: 36px;
   flex-shrink: 0;
+  margin-left: 50vh;
 }
 
 .navbutton {
@@ -66,7 +65,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 90px */
-  margin-left: 20vh;
+  margin-left: 27vh;
   margin-top: 20vh;
 }
 .section1 {
@@ -88,8 +87,8 @@
 
 .iphone {
     position: absolute; 
-    top: 50%; 
-    left: 35%; 
+    top: 58%;
+    left: 18%;
     transform: translate(84%, -58%);
     width: 600.378px;
     height: 649.646px;
@@ -99,18 +98,18 @@
 
 .belowtext{
     align-self: stretch;
-    max-width:50%;
+    max-width:38%;
     color: #FBFBFB;
     font-family: Inter;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 48px */
-    margin-left: 20vh;
+    margin-left: 27vh;
 }
 .buttongroup{
     margin-top: 5vh;
-    margin-left: 20vh;
+    margin-left: 27vh;
 }
 .downloadapp{
     display: flex;
@@ -129,5 +128,46 @@ font-size: medium;
 
 .headersvg{
     margin-top: 5vh;
-    margin-left: 20vh;
+    margin-left: 27vh;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .navbar ul {
+    margin-right: 0;
+  }
+  
+  .headertext {
+    margin: 20px 0; /* Adjust margin for smaller screens */
+  }
+  
+  .section1 {
+    flex-direction: column;
+  }
+  
+  .iphone {
+   display: none;
+  }
+  
+  .belowtext {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  
+  .buttongroup {
+    margin-left: 0;
+  }
+  
+  .headersvg {
+    margin-left: 0;
+  }
+  .navbar ul{
+    display: none;
+  }
+  .navbutton{
+    display: none;
+  }  
 }

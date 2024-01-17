@@ -1,6 +1,6 @@
 .imageContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 92%;
   height: 366px;
   margin-top: 15vh;
@@ -10,16 +10,20 @@
   height: 366px;
   flex-shrink: 0;
   background: #e5efeb;
+  z-index: 1;
+  margin-top: 30vh;
 }
 .imageWithText {
   position: relative;
   width: 30%; /* Adjust this value based on your layout */
 }
 
-.image {
+.sevenimage {
   width: 100%;
-  height: 200%;
+  height: 168%;
   object-fit: cover;
+  z-index: 2;
+  margin-top: -17vh;
 }
 
 .textOverlay {
@@ -39,6 +43,7 @@
   font-size: 14px;
   font-weight: bold;
   text-align: center;
+  z-index: 3;
 }
 
 .toptext {
@@ -46,4 +51,5 @@
   margin-top: 12vh;
   font-size: x-large;
   color: #1c2a3a;
+  z-index: 4;
 }

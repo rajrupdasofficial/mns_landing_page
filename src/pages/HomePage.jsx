@@ -16,11 +16,10 @@ const HomePage = () => {
       <ThirdSection />
       <FourthSection />
       <FifthSection />
-      <SixthSecton />
+      {/* <SixthSecton /> */}
       <SeventhSection />
       <EightSection />
       <Footer />
-
     </>
   );
 };
