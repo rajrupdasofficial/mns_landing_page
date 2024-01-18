@@ -4,6 +4,7 @@
   width: 92%;
   height: 366px;
   margin-top: 15vh;
+  margin-left: 20vh;
 }
 .gradientbackground {
   width: 100%;
@@ -19,7 +20,6 @@
 }
 
 .sevenimage {
-  width: 100%;
   height: 168%;
   object-fit: cover;
   z-index: 2;
@@ -52,4 +52,45 @@
   font-size: x-large;
   color: #1c2a3a;
   z-index: 4;
+}
+
+@media only screen and (max-width: 600px) {
+  .toptext {
+    margin-left: 3vh;
+    z-index: 3;
+    font-size: inherit;
+  }
+  .gradientbackground {
+    margin-top: -13vh;
+  }
+
+  .imageWithText {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .imageContainer {
+    flex-direction: row;
+    align-items: center;
+    height: 366px;
+    margin-left: 2vh;
+    gap: 14px;
+  }
+
+  .sevenimage {
+    height: 30vh;
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .textOverlay {
+    position: static;
+    background: none;
+    padding: 0;
+    color: #47535f;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+  }
 }

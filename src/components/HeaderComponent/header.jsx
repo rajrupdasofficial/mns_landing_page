@@ -1,5 +1,5 @@
 import NavBar from "../NavComponent/navBar";
-import iphone from "../../../public/assets/images/iphone.png";
+import iphone from "../../../public/assets/images/headermob.png";
 const HeaderComponent = () => {
   return (
     <>

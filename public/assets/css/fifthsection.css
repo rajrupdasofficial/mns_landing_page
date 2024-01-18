@@ -9,7 +9,7 @@
 }
 
 .phone {
-  width: 600.045px;
+  /* width: 600.045px; */
   height: 603.892px;
   flex-shrink: 0;
   z-index: 1;
@@ -29,4 +29,23 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 48px */
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutspace {
+    margin-top: 110px;
+  }
+
+  .phone {
+    visibility: hidden;
+    display: none;
+  }
+  .adjst {
+    margin-left: -10vh;
+  }
+  .pauu {
+    font-size: 16px;
+    max-width: 35vh;
+    margin-top: 5vh;
+  }
 }

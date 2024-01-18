@@ -1,4 +1,4 @@
-import iphone from "../../../public/assets/images/iphone.png";
+import iphone from "../../../public/assets/images/hospitals.png";
 import "../../../public/assets/css/thirdsection.css";
 import map from "../../../public/assets/images/map.jpeg";
 const ThirdSection = () => {
@@ -7,6 +7,7 @@ const ThirdSection = () => {
       <div className="topthird">
         <div className="thirdsection">
           <img src={iphone} alt="section2" className="thirdsectionimage" />
+
           <div className="thtext-container">
             <h4 className="thtext">Quick access to the services you need</h4>
             <p className="thtextp">

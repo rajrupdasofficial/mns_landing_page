@@ -11,10 +11,10 @@
 }
 
 .thirdsectionimage {
-  width: 600.635px;
   position: relative;
   height: 598.926px;
   z-index: 2;
+  display: block;
 }
 
 .thtext-container {
@@ -60,8 +60,29 @@
   z-index: -1;
 }
 
-@media screen and (max-height: 780px) {
-  .thirdsection {
-    top: 30px;
+@media only screen and (max-width: 600px) {
+  topthird {
+    margin-top: 10vh;
+  }
+  .thirdsectionimage {
+    visibility: hidden;
+    display: none;
+  }
+  .thtext {
+    font-size: 24px;
+    max-width: 76%;
+  }
+  .thtextp {
+    font-size: 16px;
+    max-width: 97%;
+    margin-left: -49px;
+  }
+  .mapImage {
+    height: 22vh;
+    width: 96%;
+  }
+  .mapOverlay {
+    top: -8vh;
+    height: 178%;
   }
 }

@@ -1,5 +1,5 @@
 import "../../../public/assets/css/fourthsection.css";
-import phone from "../../../public/assets/images/iphone.png";
+import phone from "../../../public/assets/images/ds.png";
 
 const FourthSection = () => {
   return (

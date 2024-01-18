@@ -28,7 +28,6 @@ footer {
   margin-top: 5vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -67,7 +66,7 @@ footer {
 
 .contact-form button {
   display: flex;
-  width: 220px;
+  width: 301px;
   height: 52px;
   padding: 8px 16px;
   justify-content: center;
@@ -76,18 +75,30 @@ footer {
   flex-shrink: 0;
   border-radius: 4px;
   background: linear-gradient(90deg, #316362 -27.98%, #88b7a4 42.96%);
+  margin-top: 7px;
 }
 
+.footerinput {
+  margin-top: 12px;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
   footer {
     flex-direction: column;
     text-align: center;
+    height: 80vh;
+  }
+  .textpp {
+    max-width: 87%;
+    margin-left: 28px;
+    margin-top: 45px;
   }
 
   .contact-section,
-  .social-icons,
   .contact-form {
     width: 100%;
+  }
+  .social-icons {
+    margin-left: 10vh;
   }
 }

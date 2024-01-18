@@ -1,11 +1,11 @@
 import "../../../public/assets/css/fifthsection.css";
-import phone from "../../../public/assets/images/iphone.png";
+import phone from "../../../public/assets/images/hsf.png";
 
 const FifthSection = () => {
   return (
     <div className="aboutspace">
       <img src={phone} alt="phone" className="phone" />
-      <div>
+      <div className="adjst">
         <h6 className="huu">About Us</h6>
         <p className="pauu">
           Our platform connects you with qualified doctors who can provide

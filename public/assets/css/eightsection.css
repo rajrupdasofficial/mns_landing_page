@@ -38,3 +38,22 @@
   font-size: x-large;
   color: #1c2a3a;
 }
+
+@media only screen and (max-width: 600px) {
+  .topsection {
+    margin-top: 10vh;
+    margin-left: -12vh;
+  }
+  .toop {
+    font-size: 17px;
+  }
+  .card-img {
+    display: none;
+    visibility: hidden;
+  }
+  .textp {
+    font-size: 20px;
+    margin-left: -38px;
+    margin-top: 42px;
+  }
+}

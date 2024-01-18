@@ -28,19 +28,33 @@ const Footer = () => {
           {/* Contact Form */}
           <div className="contact-form">
             <form>
-              <label htmlFor="name">Your Name*</label>
-              <input type="text" name="name" placeholder="Your Name" required />
-              <label htmlFor="email">Your Email*</label>
+              <label htmlFor="name" className="footerlabel">
+                Your Name*
+              </label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+                className="footerinput"
+              />
+              <label htmlFor="email" className="footerlabel">
+                Your Email*
+              </label>
               <input
                 type="email"
                 name="email"
                 placeholder="Your Email"
                 required
+                className="footerinput"
               />
-              <label htmlFor="message">Your Message*</label>
+              <label htmlFor="message" className="footerlabel">
+                Your Message*
+              </label>
               <textarea
                 name="message"
                 placeholder="Your Message"
+                className="footerinput"
                 required></textarea>
               <button type="submit">Submit</button>
             </form>

@@ -7,7 +7,6 @@ const NavBar = () => {
       <nav className="navbar">
         <div className="logo">
           <img src={Headerlogo} alt="images" className="headerlogo" />
-          {/* <p className="headertitle">MNS Shop</p> */}
         </div>
         <ul>
           <Link to="/" className="nav-link">
@@ -29,7 +28,9 @@ const NavBar = () => {
             Contacts
           </Link>
         </ul>
-        <button className="navbutton">Download Now</button>
+        <div className="marig">
+          <button className="navbutton">Download Now</button>
+        </div>
       </nav>
     </>
   );
